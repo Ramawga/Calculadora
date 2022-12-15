@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    
+</head>
+<body>
+    <div class="mudarback">
+        <div class="circulo-colorido">
+            <div class="circulo-branco"></div>
+        </div><!--circulo-colorido-->
+        <div class="esconder">
+            <p>Mudar Background</p>
+            <input class="cor1" type="color" name="cor1" value="#eeaeca">
+            <input class="cor2" type="color" name="cor2" value="#94bbe9">
+        </div><!--esconder-->
+    </div>
+    <div class="text">
+        <h1>Calculadora Digital</h1>
+        <p>Por Lucas Ramayana.</p>
+    </div>
+
+    <div class="calculadora">
+        <div class="resultado">
+            <h1 id="res"></h1>
+            <p id="tela"></p>
+        </div><!--resultado-->
+        <div class="botoes">
+            <div id="numero" class="box numero">7</div>
+            <div id="numero" class="box numero">8</div>
+            <div id="numero" class="box numero">9</div>
+            <div id="operador" class="box operador">/</div>
+            <div id="numero" class="box numero">4</div>
+            <div id="numero" class="box numero">5</div>
+            <div id="numero" class="box numero">6</div>
+            <div id="operador" class="box operador">X</div>
+            <div id="numero" class="box numero">1</div>
+            <div id="numero" class="box numero">2</div>
+            <div id="numero" class="box numero">3</div>
+            <div id="operador" class="box operador">-</div>
+            <div id="igual" class="box res">=</div>
+            <div id="numero" class="box numero">0</div>
+            <div id="numero" class="box numero">.</div>
+            <div id="operador" class="box operador">+</div>
+            <div id="deletar" class="box del">C</div>
+            <div id="deletar" class="box del"><i class="fa-solid fa-delete-left"></i></div>
+        </div><!--botoes-->
+    </div><!--calculadora-->
+
+    <script src="https://kit.fontawesome.com/1e467e3d5c.js" crossorigin="anonymous"></script>
+    <script src="js/functions.js"></script>
+</body>
+</html>
